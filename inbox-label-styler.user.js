@@ -8,9 +8,9 @@
 var unread_inbox_ckbox_xpath = "//tr[@class='zA zE']//div[@role='checkbox' and ../../td[.//div[@title='Inbox' and @class='at']]]";
 var justread_inbox_ckbox_xpath = "//tr[@class='zA yO']//div[@role='checkbox' and @ymark='on' and ../../td[.//div[@title='Inbox' and @class='at']]]";
 
-var unread_inbox_label_xpath = "//tr[@class='zA zE']//div[@title='Inbox' and @class='at']]";
-var unread_inbox_label_container_xpath = "//tr[@class='zA zE']//div[@class='ar as' and ..//div[@title='Inbox' and @class='at']]";
-var unread_inbox_msg_xpath = "//tr[@class='zA zE']//div[@class='y6' and ..//div[@title='Inbox' and @class='at']]"
+//var unread_inbox_label_xpath = "//tr[@class='zA zE']//div[@title='Inbox' and @class='at']]";
+//var unread_inbox_label_container_xpath = "//tr[@class='zA zE']//div[@class='ar as' and ..//div[@title='Inbox' and @class='at']]";
+//var unread_inbox_msg_xpath = "//tr[@class='zA zE']//div[@class='y6' and ..//div[@title='Inbox' and @class='at']]"
 
 
 function ils_main() {
