@@ -1,25 +1,22 @@
-{                                                                                                                                                    
-  "manifest_version": 2,                                                           
-                                                                                   
-  "name": "Gmail Styler",                                                          
-  "description": "change the style of Inbox messages in All Mail view",            
-  "version": "1.0",                                                                
-                                                                                   
-  "content_scripts": [                                                             
-  {                                                                                
-    "matches": [                                                                   
-      "http://mail.google.com/*",                                                  
-      "https://mail.google.com/*"                                                  
-      ],                                                                           
-    "js": ["inbox-label-styler.user.js"],                                          
-    "all_frames": false,                                                           
-    "run_at": "document_start"                                                     
-  }                                                                                
-  ],                                                                               
-                                                                                   
-  "browser_action": {                                                              
-  },                                                                               
-                                                                                   
-  "permissions": [                                                                 
+{
+  "manifest_version": 2,
+
+  "name": "Gmail Styler",
+  "description": "change the style of Inbox messages in All Mail view",
+  "version": "1.0.1",
+
+  "content_scripts": [
+  {
+    "matches": [
+      "http://mail.google.com/*",
+      "https://mail.google.com/*"
+      ],
+    "js": ["inbox-label-styler.user.js"],
+    "all_frames": false,
+    "run_at": "document_start"
+  }
+  ],
+
+  "permissions": [
   ]
 }
